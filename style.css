@@ -19,7 +19,7 @@ header,footer{
 }
 main{
     margin: auto;
-    width: 50%;
+    width: 70%;
     flex-direction: column;
     padding: 3rem;
     height: 80vh;
@@ -30,6 +30,8 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+    
 }
 #input-area,#output-area{
     width: 100%;
@@ -40,7 +42,7 @@ main{
     font-size: large;
 }
 #minion{
-    height: 30vh;
+    height: 20vh;
     padding: 1rem;
     
 }
@@ -56,4 +58,13 @@ main{
 }
 a{
     color: black;
+}
+
+@media only screen and (min-width: 1048px) {
+    main{
+        width: 50%;
+    }
+    #minion{
+        height: 30vh;
+    }
 }
