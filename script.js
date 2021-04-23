@@ -27,7 +27,7 @@ const translateText = (error) =>{
         var outputText = json.contents.translated;
         output.textContent = outputText;
     })
-    .catch(handleError())
+    .catch(handleError)
 
     
 }
