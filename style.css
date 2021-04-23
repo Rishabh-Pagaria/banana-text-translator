@@ -42,7 +42,7 @@ main{
     font-size: large;
 }
 #minion{
-    height: 20vh;
+    height: 25vh;
     padding: 1rem;
     
 }
@@ -64,7 +64,9 @@ a{
     main{
         width: 50%;
     }
+}
+@media only screen and (max-height: 850px){
     #minion{
-        height: 30vh;
+        visibility: hidden;
     }
 }
